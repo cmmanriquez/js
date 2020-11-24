@@ -1,0 +1,250 @@
+@media only screen and (min-width: 992px) {
+  .nav_inicio, .nav_obra {
+    background-color: #f5f5eb !important;
+    padding-top: 20px; }
+  .inicio_link {
+    font-family: 'Lato', sans-serif !important;
+    font-weight: 300;
+    color: black !important; }
+  /*.inicio_items{
+  display: flex !important;
+  flex-direction: row-reverse !important;
+}*/
+  .container_inicio {
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: 500px 580px;
+    grid-auto-rows: 300px 300px 600px;
+    grid-template-areas: "inicio_video03 inicio_video01" "inicio_texto01 inicio_texto02" "inicio_video02 inicio_video02"; }
+  .inicio_video01 {
+    grid-area: "inicio_video01";
+    padding: 0 0 0 140px; }
+  .inicio_video02 {
+    grid-area: "inicio_video02";
+    padding: 280px 0 0 120px; }
+  .inicio_video03 {
+    grid-area: "inicio_video03";
+    max-width: 70%; }
+  .inicio_texto01 {
+    grid-area: "inicio_texto01";
+    font-family: 'Ovo', serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #424242; }
+  .inicio_texto02 {
+    grid-area: "inicio_texto02";
+    font-family: 'Ovo', serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #424242; }
+  .container_registro {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-auto-rows: 400px 60px 700px;
+    grid-template-areas: "registro_imagen02 registro_imagen03" "registro_texto02 registro_texto02" "inicio_texto01 registro_imagen01"; }
+  .registro_imagen01 {
+    grid-area: "registro_imagen01";
+    padding: 60px 0 0 200px;
+    max-width: 70%; }
+  .registro_imagen02 {
+    grid-area: "registro_imagen02"; }
+  .registro_imagen03 {
+    grid-area: "registro_imagen03";
+    padding: 0 0 0 300px; }
+  .registro_texto01 {
+    grid-area: "registro_texto01";
+    font-family: 'Ovo', serif;
+    font-size: 16px;
+    color: #424242;
+    font-weight: 300; }
+  .registro_texto02 {
+    grid-area: "registro_texto02";
+    font-family: 'Ovo', serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #424242;
+    padding: 0 100px 0 0; }
+  .container_about {
+    display: grid;
+    grid-template-columns: 500px auto;
+    grid-auto-rows: 200px 200px 500px;
+    grid-template-areas: "about_video04 about_video02" "about_texto01 about_texto01" "about_video03 about_video01"; }
+  .about_video01 {
+    grid-area: "about_video01"; }
+  .about_video02 {
+    grid-area: "about_video02";
+    padding: 0 0 0 300px; }
+  .about_video03 {
+    grid-area: "about_video03";
+    padding-left: 40px; }
+  .about_video04 {
+    grid-area: "about_video04"; }
+  .about_texto01 {
+    grid-area: "about_texto01";
+    font-family: 'Ovo', serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #424242;
+    padding-right: 100px; }
+  .container_contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .contacto_video {
+    padding-bottom: 10px; }
+  .contacto_texto {
+    grid-area: "about_texto01";
+    font-family: 'Ovo', serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #424242;
+    padding-bottom: 250px; }
+  .container_footer {
+    font-family: 'Lato', sans-serif !important;
+    font-weight: 300;
+    color: black !important;
+    font-size: 12px;
+    margin: 0 0 18px 10px; } }
+
+@media only screen and (min-width: 576px) {
+  .container_inicio {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%; } }
+
+.obra_linksm {
+  font-size: 13px;
+  padding-bottom: 30px; }
+
+.obra_linksm:hover {
+  text-decoration: underline; }
+
+.cuerpoDeObraLink {
+  text-decoration: underline;
+  margin-right: 20px;
+  padding-top: 19px; }
+
+.cuerpoDeObraLink:hover {
+  text-decoration: underline; }
+
+.container_cuerpodeobra {
+  margin-top: 140px;
+  display: grid;
+  grid-template-columns: 500px 400px;
+  grid-template-rows: 100px 260px 180px;
+  grid-template-areas: "cuerpodeobra_video01 cuerpodeobra_marquee" "cuerpodeobra_video02 cuerpodeobra_video03" "cuerpodeobra_video04 cuerpodeobra_video04"; }
+
+.cuerpodeobra_video01 {
+  grid-area: "cuerpodeobra_video01"; }
+
+.cuerpodeobra_video02 {
+  grid-area: "cuerpodeobra_video02";
+  padding: 100px 0 0 320px; }
+
+.cuerpodeobra_video03 {
+  grid-area: "cuerpodeobra_video03";
+  padding: 140px 0 0 200px; }
+
+.cuerpodeobra_video04 {
+  grid-area: "cuerpodeobra_video04";
+  padding-bottom: 40px; }
+
+.cuerpodeobra_marquee {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 200;
+  font-size: 40px;
+  padding-top: 40px; }
+
+.aboutSentimientosLink, .reflexionesLink, .teLoJuroLink, .primarioLink {
+  text-decoration: underline; }
+
+.container_aboutS, .container_reflexiones,
+.container_telojuro, .container_primario {
+  margin-top: 120px;
+  margin-bottom: 120px; }
+
+.container_aboutS_texto, .container_reflexiones_texto,
+.container_telojuro_texto, .container_primario_texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  grid-area: "inicio_texto01";
+  font-family: 'Ovo', serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #424242;
+  padding-bottom: 60px; }
+
+.container_aboutvideo, .container_primariovideo,
+.conrainer_reflexionesvideo, .container_telojurovideo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+.producto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 60px; }
+
+.boton_shop {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  opacity: 0.6; }
+
+#containerShop {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  margin-top: 140px; }
+
+.type, .price {
+  margin-top: 3px;
+  font-size: 14px; }
+
+.stock {
+  font-size: 12px; }
+
+.boton_shop {
+  font-size: 16px; }
+
+/*#f5f5eb*/
+body {
+  background: #fcfcf5; }
+
+.custom-toggler.navbar-toggler {
+  border-color: black; }
+
+.nav_logo {
+  font-family: 'Lato', sans-serif !important;
+  font-weight: 300;
+  color: black !important; }
+
+.nav_inicio, .nav_obra {
+  background-color: #fcfcf5 !important; }
+
+.inicio_link, .obra_link, .shop_link {
+  font-family: 'Lato', sans-serif !important;
+  font-weight: 300;
+  color: black !important; }
+
+.inicio_link {
+  padding-top: 19px; }
+
+.inicio_link:hover {
+  text-decoration: underline; }
+
+.shop_link:hover {
+  text-decoration: underline; }
+
+.shop_link {
+  margin-left: 20px;
+  padding-top: 19px; }
+
+iframe {
+  max-width: 60%;
+  padding: 0 10px 0 10px; }
+
+.navbar-boton {
+  font-family: 'Lato', sans-serif !important;
+  font-weight: 300; }

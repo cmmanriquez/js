@@ -1,0 +1,57 @@
+$negro_claro: #575757;
+
+.obra_linksm{
+  font-size: 13px;
+  padding-bottom: 30px;
+}
+
+.obra_linksm:hover{
+  text-decoration: underline;
+}
+
+.cuerpoDeObraLink{
+  text-decoration: underline;
+  margin-right: 20px;
+  padding-top: 19px;
+}
+
+.cuerpoDeObraLink:hover{
+  text-decoration: underline;
+}
+
+.container_cuerpodeobra{
+  margin-top: 140px;
+display: grid;
+grid-template-columns: 500px 400px;
+grid-template-rows: 100px 260px 180px;
+grid-template-areas:
+"cuerpodeobra_video01 cuerpodeobra_marquee"
+"cuerpodeobra_video02 cuerpodeobra_video03"
+"cuerpodeobra_video04 cuerpodeobra_video04";
+}
+
+.cuerpodeobra_video01{
+  grid-area: "cuerpodeobra_video01";
+}
+
+.cuerpodeobra_video02{
+  grid-area: "cuerpodeobra_video02";
+  padding: 100px 0 0 320px;
+}
+
+.cuerpodeobra_video03{
+  grid-area: "cuerpodeobra_video03";
+  padding: 140px 0 0 200px;
+}
+
+.cuerpodeobra_video04{
+  grid-area: "cuerpodeobra_video04";
+  padding-bottom: 40px;
+}
+
+.cuerpodeobra_marquee{
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 200;
+  font-size: 40px;
+  padding-top: 40px;
+}

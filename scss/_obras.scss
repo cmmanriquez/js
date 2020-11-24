@@ -1,0 +1,32 @@
+$negro_claro: #575757;
+
+.aboutSentimientosLink, .reflexionesLink, .teLoJuroLink, .primarioLink{
+  text-decoration: underline;
+}
+
+.container_aboutS, .container_reflexiones,
+.container_telojuro, .container_primario{
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.container_aboutS_texto, .container_reflexiones_texto,
+.container_telojuro_texto, .container_primario_texto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  grid-area: "inicio_texto01";
+  font-family: 'Ovo', serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: $negro;
+  padding-bottom: 60px;
+}
+
+.container_aboutvideo, .container_primariovideo,
+.conrainer_reflexionesvideo, .container_telojurovideo{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

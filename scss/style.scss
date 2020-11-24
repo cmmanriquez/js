@@ -1,0 +1,57 @@
+@import "inicio.scss";
+@import "cuerpo-de-obra.scss";
+@import "obras.scss";
+@import "shop.scss";
+
+$amarillo__claro: #fcfcf5/*#f5f5eb*/;
+
+body{
+background: $amarillo__claro;
+}
+
+.custom-toggler.navbar-toggler{
+  border-color: black;
+}
+
+.nav_logo{
+  font-family: 'Lato', sans-serif !important;
+  font-weight: 300;
+  color: black !important;
+}
+
+.nav_inicio, .nav_obra{
+  background-color: $amarillo__claro !important;
+}
+
+.inicio_link, .obra_link, .shop_link{
+  font-family: 'Lato', sans-serif !important;
+  font-weight: 300;
+  color: black !important;
+}
+
+.inicio_link{
+  padding-top: 19px;
+}
+
+.inicio_link:hover{
+  text-decoration: underline;
+}
+
+.shop_link:hover{
+  text-decoration: underline;
+}
+
+.shop_link{
+  margin-left: 20px;
+  padding-top: 19px;
+}
+
+iframe{
+  max-width: 60%;
+  padding: 0 10px 0 10px;
+}
+
+.navbar-boton{
+  font-family: 'Lato', sans-serif !important;
+  font-weight: 300;
+}
